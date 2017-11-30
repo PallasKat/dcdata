@@ -1,0 +1,48 @@
+  
+    Detailed timings for the forecast per task:
+    ===========================================
+  
+Time for the setup of the model:         1.02
+Time for the cleanup of the model:       0.01
+  
+Time for hour      1 in node 0:     81.13
+  
+Dyn. Computations          75.75
+  Horizontal Diffusion      2.26
+  Horizontal Advection      7.29
+  Add. Tend+Moist           3.83
+  Slow Tendencies           5.00
+  Fast Waves               49.38
+  Relaxation                2.62
+  Spectr. Nudging           0.00
+Fast Waves Comm.            0.61
+Fast Waves Barrier          0.00
+Communications  Dyn         0.48
+Barrier Waiting Dyn         0.00
+Global Comm     Dyn         0.00
+Barrier GlobCom Dyn         0.00
+  
+Phy. Computations           3.94
+  Precipitation             0.40
+  Radiation                 3.19
+  Turbulence                0.25
+  Convection                0.06
+  Soil Model                0.02
+  Sub-grid Scale Oro.       0.00
+Communications  Phy         0.00
+Barrier Waiting Phy         0.00
+  
+Add. Computations           0.35
+Input                       0.00
+  read data                 0.00
+  meta data                 0.00
+  computations I            0.00
+  distribute data           0.00
+  
+Output                      0.00
+  computations O            0.00
+  meta  data                0.00
+  write data                0.00
+  gather data               0.00
+  
+  
